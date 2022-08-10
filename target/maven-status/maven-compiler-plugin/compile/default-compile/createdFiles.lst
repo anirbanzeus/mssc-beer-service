@@ -1,0 +1,14 @@
+learn/springframework/msscbeerservice/web/controller/BeerController.class
+learn/springframework/msscbeerservice/web/model/BeerPageList.class
+learn/springframework/msscbeerservice/web/model/BeerDto$BeerDtoBuilder.class
+learn/springframework/msscbeerservice/web/mappers/BeerMapper.class
+learn/springframework/msscbeerservice/repositories/BeerRepository.class
+learn/springframework/msscbeerservice/domain/Beer.class
+learn/springframework/msscbeerservice/web/mappers/BeerMapperImpl.class
+learn/springframework/msscbeerservice/MsscBeerServiceApplication.class
+learn/springframework/msscbeerservice/web/model/BeerStyleEnum.class
+learn/springframework/msscbeerservice/web/mappers/DateMapper.class
+learn/springframework/msscbeerservice/domain/Beer$BeerBuilder.class
+learn/springframework/msscbeerservice/bootstrap/BeerLoader.class
+learn/springframework/msscbeerservice/web/controller/MvcExceptionHandler.class
+learn/springframework/msscbeerservice/web/model/BeerDto.class
