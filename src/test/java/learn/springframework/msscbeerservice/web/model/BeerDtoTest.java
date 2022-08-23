@@ -5,6 +5,10 @@ import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
+import java.util.Date;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,6 +21,7 @@ class BeerDtoTest {
                 .price(new BigDecimal("13.98"))
                 .id(UUID.randomUUID())
                 .upc(23459L)
+               .lastModifiedDate(OffsetDateTime.now())
                 .build();
     }
 
