@@ -5,6 +5,7 @@ import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
@@ -22,6 +23,7 @@ class BeerDtoTest {
                 .id(UUID.randomUUID())
                 .upc(23459L)
                .lastModifiedDate(OffsetDateTime.now())
+               .myLocalDate(LocalDate.now())
                 .build();
     }
 
