@@ -1,6 +1,7 @@
 package learn.springframework.msscbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import learn.springframework.msscbeerservice.bootstrap.BeerLoader;
 import learn.springframework.msscbeerservice.domain.Beer;
 import learn.springframework.msscbeerservice.services.BeerService;
 import learn.springframework.msscbeerservice.web.model.BeerDto;
@@ -72,7 +73,7 @@ class BeerControllerTest {
                 .beerStyle(BeerStyleEnum.LAGER)
                 .price(new BigDecimal("2.980"))
                 .quantityOnHand(100)
-                .upc(3L)
+                .upc(BeerLoader.BEER_1_UPC)
                 .build();
     }
 }
